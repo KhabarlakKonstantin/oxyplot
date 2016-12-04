@@ -126,7 +126,7 @@ namespace OxyPlot.Series
         /// Gets the actual points of the second data set.
         /// </summary>
         /// <value>A list of data points.</value>
-        protected List<DataPoint> ActualPoints2
+        protected virtual List<DataPoint> ActualPoints2
         {
             get
             {
